@@ -1,0 +1,81 @@
+html
+{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+	background-color: rgb(37, 39, 41);
+	color: white;
+}
+
+
+#img_h
+{
+	margin: 30px 0;
+	box-shadow: 0px 0px 15px 25px rgb(255, 255, 255);
+	width: 60%;
+}
+
+.header
+{
+	text-align: center;
+	color: rgb(253, 91, 129);
+	font-size: 140%;
+}
+
+._main
+{
+	font-weight: 550;
+	outline-offset: 8px;
+	outline-width: 2px;
+	outline-style:dashed;
+	margin: 5% 8%;
+	border-radius: 50px;
+	background-color: rgb(22, 22, 22);
+	padding: 1% 5% 5% 5%;
+}
+
+
+.starr
+{
+	font-size: 300%;
+	text-shadow: 0px 0px 10px rgb(234, 49, 95);
+	display: flex;
+	color: rgb(234, 49, 95);
+	justify-content: center;
+	align-items: center;
+	animation: star_k 2s infinite;
+}
+
+@keyframes star_k
+{
+	0% {text-shadow: 0px 0px 5px rgb(234, 49, 95);}
+	50% {text-shadow: 0px 0px 15px rgb(234, 49, 95);}
+	100% {text-shadow: 0px 0px 5px rgb(234, 49, 95);}
+
+}
+
+.p_
+{
+	font-weight: 600;
+	margin: 10px 20%;
+}
+
+._2
+{
+	color: rgb(220, 97, 152);
+	font-weight: 600;
+	margin-top: 100px;
+	font-size: 150%;
+}
+
+.stars
+{
+	border-radius: 15px;
+	
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	background-color: rgb(21, 21, 23);
+	background-image: ;
+	width: 300px;
+	height: 300px;
+}
